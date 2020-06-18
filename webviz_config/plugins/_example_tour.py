@@ -18,12 +18,12 @@ class ExampleTour(WebvizPluginABC):
         return html.Div(
             children=[
                 html.Span(
-                    "Here is some blue text to explain... ",
+                    "Here is some blueeeee text to explain... ",
                     id=self.uuid("blue_text"),
                     style={"color": "blue"},
                 ),
                 html.Span(
-                    " ...and here is some red text that also needs an explanation.",
+                    " ...and here is some red or is it DDDDD text that also needs an explanation.",
                     id=self.uuid("red_text"),
                     style={"color": "red"},
                 ),
