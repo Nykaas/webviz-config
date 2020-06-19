@@ -9,9 +9,10 @@ pages:
    content:
     - BannerImage:
         image: ./example_banner.png
-        title: My banner image
-    - Webviz created from configuration file.
-    - Some other text, potentially with strange letters like Åre, Smørbukk Sør.
+        title: Insert cool banner here
+    - This is Ruben's awesome homepage.
+    - Here we will try to create a dummy plugin.
+    - Hopefully it will work.
 
  - title: Markdown example
    content:
@@ -32,6 +33,16 @@ pages:
    content:
     - SyntaxHighlighter:
         filename: ./basic_example.yaml
+
+ - title: Dummy plugin
+   content:
+    - DummyClass: #Change this to DummyClass
+        #filename: ./basic_example.yaml
+
+ - title: Dummy plugin2
+   content:
+    - DummyClass2: #Change this to DummyClass
+        #filename: ./basic_example.yaml
 
  - title: Tour example
    content:

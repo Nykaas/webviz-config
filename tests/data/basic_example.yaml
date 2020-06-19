@@ -10,7 +10,7 @@ pages:
     - BannerImage:
         image: ./example_banner.png
         title: My banner image
-    - Webviz created from configuration file.
+    - Webviz created from configuration file test write here.
     - Some other text, potentially with strange letters like Åre, Smørbukk Sør.
 
  - title: Markdown example
