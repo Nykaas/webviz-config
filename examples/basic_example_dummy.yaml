@@ -1,0 +1,29 @@
+# This file demonstrates the most basic usage of webviz in a FMU setting
+# The configuration files uses YAML (https://en.wikipedia.org/wiki/YAML).
+
+title: Freestyle
+
+pages:
+
+ - title: Front page
+   content:
+    - BannerImage:
+        image: ./example_banner.png
+        title: Insert cool banner here
+    - This is Ruben's awesome homepage.
+    - Here we will try to create a dummy plugin.
+    - Hopefully it will work.
+
+ - title: Dummy plugin 1
+   content:
+    - DummyClass1: #Change this to DummyClass
+
+ - title: Dummy plugin 2
+   content:
+    - DummyClass2: #Change this to DummyClass
+
+ - title: Dummy plugin 3
+   content:
+    - DummyClass3: #Change this to DummyClass
+
+

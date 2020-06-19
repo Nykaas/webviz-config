@@ -26,7 +26,7 @@ Useful on e.g. the front page for introducing a field or project.
     def __init__(
         self,
         image: Path,
-        title: str = "",
+        title: str = "My test banner",
         color: str = "white",
         shadow: bool = True,
         height: int = 300,
